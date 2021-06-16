@@ -1,0 +1,126 @@
+html{
+    padding: 0;
+    margin: 0;
+    background: rgb(228,229,230);
+    background: linear-gradient(163deg, rgba(228,229,230,1) 6%, rgba(240,171,56,0.9296875) 64%, rgba(242,128,55,0.9184515449438202) 95%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(82.8587653750465%,16.700107290415712%,16.700107290415712%,0.99);
+}
+
+header img{
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin: auto;
+}
+
+#item{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#Contact{
+    padding: 40px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#car-select{
+    height: 200px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+
+#car-select:hover{
+    background-color: wheat;
+}
+
+#car-select img{
+    border-radius: 10px;
+    height: 90%;
+    margin: 10px;
+}
+
+#context{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#intro{
+    padding: 30px;
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+footer{
+    position: fixed;
+    bottom: 1px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(82.8587653750465%,16.700107290415712%,16.700107290415712%,0.99);
+    margin: auto;
+    padding: 0%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+#name{
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#box{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#form{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+.button{
+    width: 10%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: wheat;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
